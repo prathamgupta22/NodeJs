@@ -1,0 +1,118 @@
+Server and Client:
+
+Server:
+A server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network.
+The server handles requests from clients, processes them, and sends back the appropriate responses.
+
+Client:
+A client is a computer or software that requests resources or services over a network from a server.
+
+Live Server in VS Code:
+Live Server runs on Node.js, not directly in a browser. It allows real-time updates of web applications by refreshing the browser when file changes are detected.
+
+CCLI vs. GUI:
+CLI (Command-Line Interface):
+
+Definition: A text-based interface where users type commands to perform tasks.
+How It Works: Users interact with the system by entering commands in a terminal or console.
+Examples: Command Prompt (Windows), Terminal (macOS, Linux).
+GUI (Graphical User Interface):
+
+Definition: A visual interface where users interact with the system through graphical elements like windows, icons, buttons, and menus.
+How It Works: Users perform tasks by clicking, dragging, and dropping using a mouse or touchpad.
+Examples: Windows OS, macOS, Ubuntu Desktop.
+
+YT-DLP:
+YT-DLP is a command-line tool used to download videos from YouTube and other platforms.
+
+
+NODEJS IS A COMMAND LINE APPLICATION
+
+W
+Your notes are quite informative, but I see a few areas where clarity and structure can be improved for better understanding. Below is a refined version with additional explanations and improved structure:
+
+Server and Client:
+Server:
+
+A server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network.
+The server handles requests from clients, processes them, and sends back the appropriate responses.
+Client:
+
+A client is a computer or software that requests resources or services over a network from a server.
+Live Server in VS Code:
+Live Server runs on Node.js, not directly in a browser. It allows real-time updates of web applications by refreshing the browser when file changes are detected.
+CLI vs. GUI:
+CLI (Command-Line Interface):
+
+Definition: A text-based interface where users type commands to perform tasks.
+How It Works: Users interact with the system by entering commands in a terminal or console.
+Examples: Command Prompt (Windows), Terminal (macOS, Linux).
+GUI (Graphical User Interface):
+
+Definition: A visual interface where users interact with the system through graphical elements like windows, icons, buttons, and menus.
+How It Works: Users perform tasks by clicking, dragging, and dropping using a mouse or touchpad.
+Examples: Windows OS, macOS, Ubuntu Desktop.
+YT-DLP:
+YT-DLP is a command-line tool used to download videos from YouTube and other platforms.
+What is Node.js?
+Node.js:
+
+Node.js is a C++-based command-line application that can understand and run JavaScript outside the browser.
+It provides a runtime environment built on Chrome's V8 JavaScript engine, enabling JavaScript execution on the server side.
+Uses of Node.js:
+
+Web Servers and APIs: Build and manage servers and create APIs.
+Command-Line Tools: Tools like npm, TypeScript, Webpack, ESLint, Babel, Yarn, Create React App, etc.
+Internet of Things (IoT): Manage and interact with connected devices.
+
+Debugging: Useful for debugging JavaScript in various contexts.
+
+OUR NODE CAN READ LOCAL FILES BUT BROWSER CANNOT READ`
+
+Node.js vs Browser JavaScript:
+Window Object in the browser is used for managing the browser environment (DOM, cookies, etc.).
+Global Object in Node.js replaces the browser's window object and provides access to global variables and functions in the Node.js environment.
+
+Node.js extends the capabilities of JavaScript beyond what is possible when running JavaScript solely in a browser environment. Here's what Node.js can do that normal JavaScript cannot, which makes it suitable for building backends.
+
+Browser vs. Node.js:
+File System Access:
+
+Node.js: Can read, write, delete, and manipulate local files using built-in APIs.
+Browser JavaScript: Cannot access the client’s file system for security reasons.
+Networking Capabilities:
+
+Node.js: Can create web servers, handle network requests, and manage low-level networking tasks like handling sockets, creating TCP/UDP servers.
+Browser JavaScript: Limited to making HTTP requests (using fetch or XMLHttpRequest), and cannot create servers or handle low-level networking.
+
+Process Management:
+Node.js: Can spawn child processes, manage multiple threads, and interact with the operating system at a system-level.
+Browser JavaScript: Runs in a single thread and cannot spawn processes or manage system tasks.
+
+
+HISTORY OF JavaScript
+A developer was frustrated with the limitations of Apache HTTP Server, particularly the way it handled multiple connections by creating a separate thread for each request. He wanted a non-blocking, event-driven architecture
+ 
+ 
+Use of V8 in making Node.js
+Ryan Dahl chose Chrome's V8 engine for Node.js because of its ability to compile JavaScript directly into machine code, ensuring high performance and efficiency. This allowed Node.js to handle concurrent connections with speed and scalability, making it ideal for building networked applications.
+
+
+npm Launch & Windows Support
+The launch of npm in 2010 and Windows support in 2011 broadened its adoption and increased popularity.
+
+
+Contribution of Joyent in Node US:
+In 2012, Joyent significantly contributed to Node.js by providing corporate sponsorship, financial support, and organizational guidance, which accelerated its development and helped it gain widespread adoption.
+
+The Birth of io.js : 
+In 2014 io.js was created as a fork of Node.js due to disagreements over the project's pace of development and governance, with the goal of accelerating progress and fostering greater community collaboration.
+
+The merger of io.js and Node US
+
+In 2015 Node.js Foundation was created to unify the Node.js and io.js communities by providing a neutral governance structure, which facilitated the merger of the two projects and ensured collaborative, transparent development.
+
+this merger led to the release of nodejs version of 4 marking of the beginning of a more stable long term support
+
+OpenJS Foundation
+In 2019 the OpenJS Foundation was created by merging the Node.js Foundation and the JS Foundation to provide a unified, neutral home for JavaScript projects, promoting collaboration and sustainability across the JavaScript ecosystem.
